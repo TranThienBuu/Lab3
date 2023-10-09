@@ -1,0 +1,120 @@
+body{
+    font-family: Arial;
+
+}
+#form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+
+}
+#form form{
+    width: 400px;
+    border: 20px solid #E2E2E2;
+    padding: 10px;
+    margin: 10px;
+}
+
+.form-input label{
+    /*padding: 30px 20px 20px 20px;*/
+    color: #7ED321;
+    font-weight: bold;
+}
+.form-input input{
+    padding: 12px 10px 10px 10px;
+    margin: 10px 10px 10px 0;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 310px;
+
+}
+.form-input ul{
+    list-style: none;
+    padding: 0;
+}
+.form-input ul li {
+    padding-right: 10px;
+}
+
+.form-input ul i{
+    padding: 10px 13px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.date_gender{
+    display: flex;
+    justify-content: space-between;
+}
+.date_b ul {
+    display: flex;
+}
+.date_b ul li input{
+    width:  38px;
+    padding: 10px;
+    margin: 0;
+}
+.gender label{
+    padding: 30px 20px 20px 20px;
+
+}
+
+.btn-primary{
+    display: flex;
+    padding: 15px 10px;
+}
+
+.btn button{
+    background-color: #F9F9F9;
+    padding: 10px 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.card .btn-payment{
+    display: flex;
+    justify-content: space-between;
+    width: 380px;
+    padding-top: 10px;
+}
+.card .btn-payment button{
+    width: 100%;
+    padding: 10px 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: #F9F9F9;
+}
+.card .btn-payment .credit{
+    background-color: #7ED321;
+}
+.card label{
+    padding: 10px;
+}
+.card-input input{
+    width: 310px;
+}
+.card-input ul i{
+    padding-right: 10px;
+}
+.card_cvc{
+    display: flex;
+    text-align: center;
+    /*justify-content: space-between;*/
+    align-items: center;
+}
+
+.card_cvc .cvc input{
+    width: 160px;
+}
+.card_cvc .date_cvc select{
+    padding: 10px;
+}
+.content h3{
+    font-size: 14px;
+    color: #7ED321;
+}
+.check-box input {
+    width: auto;
+    height: auto;
+    margin: 0;
+}
+.check-box label{
+    padding-left: 0;
+    color: #ccc;
+}
